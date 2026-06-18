@@ -1,0 +1,22 @@
+{
+  "curations": {
+    "github.com/algoidan/paralithium": {
+      "license": "UNKNOWN",
+      "reviewed": null,
+      "reviewer": null,
+      "note": "No license found at github.com/algoidan/paralithium"
+    },
+    "key-mismatch-attack-on-nist-kems": {
+      "license": "UNKNOWN",
+      "reviewed": null,
+      "reviewer": null,
+      "note": "No license found at github.com/ahaqy/key-mismatch-attack-on-nist-kems"
+    },
+    "kyber": {
+      "license": "Apache-2.0",
+      "reviewed": "2026-04-24",
+      "reviewer": "auto-github-api",
+      "note": "License from github.com/jiep/kyber"
+    }
+  }
+}
