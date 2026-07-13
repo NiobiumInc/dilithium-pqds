@@ -2,9 +2,9 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: dilithium-pqds
-Generated: 2026-04-24
+Generated: 2026-07-13
 Tool: SCANOSS (snippet detection with License dataset)
-Components: 10
+Components: 11
 
 This file lists all third-party software components detected
 in this repository, along with their licenses and copyright
@@ -15,7 +15,7 @@ notices as required by those licenses.
 WARNING: The following component(s) have no license information.
 These require manual review to determine licensing terms.
 
-  - github.com/algorand/dilithium (https://proxy.golang.org/github.com/algorand/dilithium/@v/v0.0.0-20210223084220-9dddb2a05377.zip)
+  - github.com/algoidan/paralithium (https://proxy.golang.org/github.com/algoidan/paralithium/@v/v0.0.0-20211013201809-dd018b3030bd.zip)
   - key-mismatch-attack-on-nist-kems (https://github.com/ahaqy/key-mismatch-attack-on-nist-kems)
   - kyber (https://github.com/pq-crystals/kyber)
   - kyber (https://github.com/jiep/kyber)
@@ -24,7 +24,8 @@ These require manual review to determine licensing terms.
 
 LICENSE SUMMARY
 
-  Apache-2.0: 1 component(s)
+  Apache-2.0: 2 component(s)
+  BSD-3-Clause: 1 component(s)
   CC-BY-4.0: 1 component(s)
   CC0-1.0: 1 component(s)
   GPL-1.0-or-later [COPYLEFT]: 1 component(s)
@@ -34,7 +35,6 @@ LICENSE SUMMARY
   GPL-3.0-or-later [COPYLEFT]: 1 component(s)
   LGPL-2.0-or-later [COPYLEFT]: 1 component(s)
   LGPL-2.1-or-later [COPYLEFT]: 1 component(s)
-  LicenseRef-scanoss-expat-601: 1 component(s)
   MIT: 2 component(s)
   Unlicense: 1 component(s)
 
@@ -58,6 +58,7 @@ COMPONENT ATTRIBUTIONS
     Copyright 2017 - 2021 ; Stephan Mueller <smueller@chronox.de>
     Copyright 2017 - 2022 ; Stephan Mueller <smueller@chronox.de>
     Copyright 2021-2024 Amazon.com; Inc. or its affiliates.
+    Copyright 2025-2026 Google Inc
     Copyright (C) 2017 - 2021; Stephan Mueller <smueller@chronox.de>
     Copyright (C) 2017 - 2022; Stephan Mueller <smueller@chronox.de>
     Copyright (c) 2015-2016 the fiat-crypto authors (see
@@ -76,11 +77,19 @@ COMPONENT ATTRIBUTIONS
     Copyright 2017 Bassham; Lawrence E (Fed). All rights reserved.
   License: Apache-2.0, CC0-1.0, GPL-2.0-only, GPL-2.0-or-later, Unlicense
 
-  github.com/algorand/dilithium
-  Version: v0.0.0-20210223084220-9dddb2a05377
-  Source: https://proxy.golang.org/github.com/algorand/dilithium/@v/v0.0.0-20210223084220-9dddb2a05377.zip
-  PURL: pkg:golang/github.com/algorand/dilithium
+  github.com/algoidan/paralithium
+  Version: v0.0.0-20211013201809-dd018b3030bd
+  Source: https://proxy.golang.org/github.com/algoidan/paralithium/@v/v0.0.0-20211013201809-dd018b3030bd.zip
+  PURL: pkg:golang/github.com/algoidan/paralithium
   License: UNKNOWN — requires manual review
+
+  irelzk
+  Version: 22fb98f
+  Source: https://github.com/gregorseiler/irelzk
+  PURL: pkg:github/gregorseiler/irelzk
+  Copyright:
+    Copyright 2020 IBM Corp
+  License: Apache-2.0
 
   key-mismatch-attack-on-nist-kems
   Version: 1a28e14
@@ -118,19 +127,6 @@ COMPONENT ATTRIBUTIONS
     Copyright copyright owner or entity authorized by
   License: CC-BY-4.0
 
-  liboqs
-  Version: 0.7.0.15.g9be13d21+dfsg-1
-  Source: https://snapshot.debian.org/archive/debian-debug/20211116T205026Z/pool/main/libo/liboqs/liboqs_0.7.0.15.g9be13d21+dfsg.orig.tar.xz
-  PURL: pkg:deb/debian/liboqs
-  Copyright:
-    Copyright 2016-2018 Graz University of Technology
-    Copyright 2016-2020 Open Quantum Safe project
-    Copyright 2016-2021 Open Quantum Safe project
-    Copyright 2017 Angela Promitzer
-    Copyright 2017-2019 Falcon Project
-    Copyright 2019-2020 Sebastian Ramacher; AIT Austrian Institute of Technology
-  License: LicenseRef-scanoss-expat-601
-
   platform/external/liboqs
   Version: upstream/nist-branch-snapshot-2018-04
   Source: https://android.googlesource.com/platform/external/liboqs/+archive/upstream/nist-branch-snapshot-2018-04.tar.gz
@@ -148,6 +144,15 @@ COMPONENT ATTRIBUTIONS
   Source: https://github.com/bpvgoncalves/pqcrypto
   PURL: pkg:github/bpvgoncalves/pqcrypto
   License: GPL-1.0-or-later, GPL-3.0-only, GPL-3.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later
+
+  spsdk-pqc
+  Version: 0.3.1
+  Source: https://pypi.org/project/spsdk-pqc
+  PURL: pkg:pypi/spsdk-pqc
+  Copyright:
+    Copyright 2016-2024 The Open Quantum Safe project authors
+    Copyright 2024 NXP
+  License: BSD-3-Clause
 
 ------------------------------------------------------------
 
@@ -279,11 +284,6 @@ Under the following terms:
   license, and indicate if changes were made.
 
 Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
-
-
---- LicenseRef-scanoss-expat-601 ---
-
-Full license text available at: https://spdx.org/licenses/LicenseRef-scanoss-expat-601.html
 
 
 --- GPL-3.0-only ---
@@ -460,4 +460,32 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 Full license text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+
+--- BSD-3-Clause ---
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
