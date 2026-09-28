@@ -2,9 +2,9 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: dilithium-pqds
-Generated: 2026-07-13
+Generated: 2026-09-27
 Tool: SCANOSS (snippet detection with License dataset)
-Components: 11
+Components: 12
 
 This file lists all third-party software components detected
 in this repository, along with their licenses and copyright
@@ -19,6 +19,7 @@ These require manual review to determine licensing terms.
   - key-mismatch-attack-on-nist-kems (https://github.com/ahaqy/key-mismatch-attack-on-nist-kems)
   - kyber (https://github.com/pq-crystals/kyber)
   - kyber (https://github.com/jiep/kyber)
+  - kyber-gake (https://github.com/jiep/kyber-gake)
 
 ------------------------------------------------------------
 
@@ -48,22 +49,20 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/aws/aws-lc
   Copyright:
     Copyright 1989 ; 1991 Free Software Foundation; Inc.
+    Copyright 1995-1998 Eric Young  eay@cryptsoft.com). All rights reserved
     Copyright 1998-2011 The OpenSSL Project.  All rights reserved.
     Copyright 2008 ; Google Inc.
     Copyright 2009 The Go Authors. All rights reserved.
     Copyright 2015 The Chromium Authors. All rights reserved.
     Copyright 2015-2016 the fiat-crypto authors (see
+    Copyright 2015-2020 the fiat-crypto authors
     Copyright 2015-2020 the fiat-crypto authors (see
     Copyright 2017 -   Stephan Mueller  smueller@chronox.de
     Copyright 2017 - 2021 ; Stephan Mueller <smueller@chronox.de>
     Copyright 2017 - 2022 ; Stephan Mueller <smueller@chronox.de>
+    Copyright 2017-2025 Stephan Mueller  smueller@chronox.de
     Copyright 2021-2024 Amazon.com; Inc. or its affiliates.
     Copyright 2025-2026 Google Inc
-    Copyright (C) 2017 - 2021; Stephan Mueller <smueller@chronox.de>
-    Copyright (C) 2017 - 2022; Stephan Mueller <smueller@chronox.de>
-    Copyright (c) 2015-2016 the fiat-crypto authors (see
-    Copyright (c) 2015-2020 the fiat-crypto authors (see
-    Copyright 2008; Google Inc.
     Copyright Amazon.com; Inc. or its affiliates. All Rights Reserved.
     Copyright copyright owner or entity authorized by
   License: MIT
@@ -109,6 +108,12 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/jiep/kyber
   License: UNKNOWN — requires manual review
 
+  kyber-gake
+  Version: v.20201229163645.9922b009.gake
+  Source: https://github.com/jiep/kyber-gake
+  PURL: pkg:github/jiep/kyber-gake
+  License: UNKNOWN — requires manual review
+
   liboqs
   Version: 0.12.0-rc1
   Source: https://github.com/open-quantum-safe/liboqs
@@ -121,9 +126,7 @@ COMPONENT ATTRIBUTIONS
     Copyright 2024 SNOVA TEAM
     Copyright (c) 2016-2020 Open Quantum Safe project
     Copyright (c) 2016-2021 Open Quantum Safe project
-    Copyright (c) 2017-2019  Falcon Project
     Copyright (c) 2019-2020 Sebastian Ramacher; AIT Austrian Institute of Technology
-    Copyright (c) 2023 by Cryptographic Engineering Research Group (CERG)
     Copyright copyright owner or entity authorized by
   License: CC-BY-4.0
 
@@ -136,7 +139,6 @@ COMPONENT ATTRIBUTIONS
     Copyright Bassham; Lawrence E
     Copyright    2017 Bassham; Lawrence E (Fed). All rights reserved.
     Copyright (c) 2017 Bassham; Lawrence E (Fed)
-    Copyright .. 2017 Bassham; Lawrence E (Fed). All rights reserved.
   License: MIT
 
   pqcrypto
