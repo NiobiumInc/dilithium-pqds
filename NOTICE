@@ -2,7 +2,7 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: dilithium-pqds
-Generated: 2026-09-27
+Generated: 2026-10-03
 Tool: SCANOSS (snippet detection with License dataset)
 Components: 12
 
@@ -15,17 +15,13 @@ notices as required by those licenses.
 WARNING: The following component(s) have no license information.
 These require manual review to determine licensing terms.
 
-  - github.com/algoidan/paralithium (https://proxy.golang.org/github.com/algoidan/paralithium/@v/v0.0.0-20211013201809-dd018b3030bd.zip)
-  - key-mismatch-attack-on-nist-kems (https://github.com/ahaqy/key-mismatch-attack-on-nist-kems)
-  - kyber (https://github.com/pq-crystals/kyber)
-  - kyber (https://github.com/jiep/kyber)
   - kyber-gake (https://github.com/jiep/kyber-gake)
 
 ------------------------------------------------------------
 
 LICENSE SUMMARY
 
-  Apache-2.0: 2 component(s)
+  Apache-2.0: 4 component(s)
   BSD-3-Clause: 1 component(s)
   CC-BY-4.0: 1 component(s)
   CC0-1.0: 1 component(s)
@@ -37,6 +33,7 @@ LICENSE SUMMARY
   LGPL-2.0-or-later [COPYLEFT]: 1 component(s)
   LGPL-2.1-or-later [COPYLEFT]: 1 component(s)
   MIT: 2 component(s)
+  UNKNOWN: 2 component(s)
   Unlicense: 1 component(s)
 
 ------------------------------------------------------------
@@ -49,6 +46,7 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/aws/aws-lc
   Copyright:
     Copyright 1989 ; 1991 Free Software Foundation; Inc.
+    Copyright 1989 Free Software Foundation Inc
     Copyright 1995-1998 Eric Young  eay@cryptsoft.com). All rights reserved
     Copyright 1998-2011 The OpenSSL Project.  All rights reserved.
     Copyright 2008 ; Google Inc.
@@ -56,12 +54,14 @@ COMPONENT ATTRIBUTIONS
     Copyright 2015 The Chromium Authors. All rights reserved.
     Copyright 2015-2016 the fiat-crypto authors (see
     Copyright 2015-2020 the fiat-crypto authors
-    Copyright 2015-2020 the fiat-crypto authors (see
+    Copyright 2015-2020 the fiat-crypto authors  see
+    Copyright 2016 -   Stephan Mueller  smueller@chronox.de
+    Copyright 2016-2025 Stephan Mueller  smueller@chronox.de
     Copyright 2017 -   Stephan Mueller  smueller@chronox.de
     Copyright 2017 - 2021 ; Stephan Mueller <smueller@chronox.de>
     Copyright 2017 - 2022 ; Stephan Mueller <smueller@chronox.de>
     Copyright 2017-2025 Stephan Mueller  smueller@chronox.de
-    Copyright 2021-2024 Amazon.com; Inc. or its affiliates.
+    Copyright 2021-2024 Amazon.com Inc. or its affiliates
     Copyright 2025-2026 Google Inc
     Copyright Amazon.com; Inc. or its affiliates. All Rights Reserved.
     Copyright copyright owner or entity authorized by
@@ -80,7 +80,7 @@ COMPONENT ATTRIBUTIONS
   Version: v0.0.0-20211013201809-dd018b3030bd
   Source: https://proxy.golang.org/github.com/algoidan/paralithium/@v/v0.0.0-20211013201809-dd018b3030bd.zip
   PURL: pkg:golang/github.com/algoidan/paralithium
-  License: UNKNOWN — requires manual review
+  License: UNKNOWN
 
   irelzk
   Version: 22fb98f
@@ -94,19 +94,19 @@ COMPONENT ATTRIBUTIONS
   Version: 1a28e14
   Source: https://github.com/ahaqy/key-mismatch-attack-on-nist-kems
   PURL: pkg:github/ahaqy/key-mismatch-attack-on-nist-kems
-  License: UNKNOWN — requires manual review
+  License: UNKNOWN
 
   kyber
   Version: v3.0
   Source: https://github.com/pq-crystals/kyber
   PURL: pkg:github/pq-crystals/kyber
-  License: UNKNOWN — requires manual review
+  License: Apache-2.0
 
   kyber
   Version: v.20201207174741.e6baff55.gake
   Source: https://github.com/jiep/kyber
   PURL: pkg:github/jiep/kyber
-  License: UNKNOWN — requires manual review
+  License: Apache-2.0
 
   kyber-gake
   Version: v.20201229163645.9922b009.gake
@@ -136,6 +136,14 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:googlesource/android/platform/external/liboqs
   Copyright:
     Copyright 2016-2024 The Open Quantum Safe project authors
+    Copyright 2017 Cisco Systems Inc. All rights reserved
+    Copyright 2017-2019 Falcon Project
+    Copyright 2023 by Cryptographic Engineering Research Group  CERG
+    Copyright 2023-2025 the MAYO team. All rights reserved
+    Copyright 2024 SNOVA TEAM
+    Copyright 2024 SandboxAQ
+    Copyright 2024 SandboxAQ and licensed under the CC0-1.0 AND  [Apache License Version 2.0] https:  www.apache.org licenses LICENSE-2.0.txt
+    Copyright 2025 CryptoExperts
     Copyright Bassham; Lawrence E
     Copyright    2017 Bassham; Lawrence E (Fed). All rights reserved.
     Copyright (c) 2017 Bassham; Lawrence E (Fed)
@@ -267,6 +275,11 @@ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Full license text: https://unlicense.org/
+
+
+--- UNKNOWN ---
+
+Full license text available at: https://spdx.org/licenses/UNKNOWN.html
 
 
 --- CC-BY-4.0 ---
